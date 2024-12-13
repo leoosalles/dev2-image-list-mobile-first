@@ -1,4 +1,10 @@
-@media(min-width: 900px) {
+@media(max-width: 1440px) {
+    section.pictures {
+        width: 900px;
+    }
+}
+
+@media(min-width: 768px) {
     main {
         display: flex;
         min-height: 100vh;
@@ -8,6 +14,7 @@
 
     section.pictures {
         display: flex;
+        /* width: 900px; */
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
