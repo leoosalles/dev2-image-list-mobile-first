@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+    color: #fff;
+}
+
+section.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4.5rem 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+figure.picture {
+    position: relative;
+    width: 335px;
+    height: 431px;
+}
+
+figcaption.info {
+    position: absolute;
+    left: 2.2rem;
+    bottom: 1.8rem;
+}
