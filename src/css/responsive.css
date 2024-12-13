@@ -1,6 +1,6 @@
 @media(max-width: 1440px) {
     section.pictures {
-        width: 900px;
+        max-width: 900px;
     }
 }
 
@@ -14,7 +14,6 @@
 
     section.pictures {
         display: flex;
-        /* width: 900px; */
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
